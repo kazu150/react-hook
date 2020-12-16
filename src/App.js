@@ -1,13 +1,12 @@
 import './App.css';
-import MouseEventEffect from './components/MouseEventEffect'
+import DataFetchById from './components/DataFetchById'
 
 function App() {
   return (
     <div className="App">
-      <MouseEventEffect />
+      <DataFetchById />
     </div>
   );
 } 
 
 export default App;
- 
