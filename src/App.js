@@ -1,12 +1,13 @@
 import './App.css';
-import ItemHook from './components/ItemHook'
+import MouseEventEffect from './components/MouseEventEffect'
 
 function App() {
   return (
     <div className="App">
-      <ItemHook />
+      <MouseEventEffect />
     </div>
   );
 } 
 
 export default App;
+ 
