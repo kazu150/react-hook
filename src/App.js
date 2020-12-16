@@ -1,6 +1,6 @@
 import React, {createContext, useState} from 'react';
 import './App.css';
-import ComponentC from './components/ComponentC'
+import CounterReducer from './components/CounterReducer'
 
 export const UserContext= createContext();
 export const LanguageContext= createContext();
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <UserContext.Provider value={user}>
         <LanguageContext.Provider value ={language}>
-          <ComponentC />
+          <CounterReducer />
         </LanguageContext.Provider>
       </UserContext.Provider>
     </div>
